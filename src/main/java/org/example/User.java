@@ -10,10 +10,10 @@ public class User {
     public User() {}
 
     // Parameterized constructor
-    public User(int userId, int id, String name, String email) {
+    public User(int userId, int id, String title, String body) {
         this.id = id;
-        this.title = name;
-        this.body = email;
+        this.title = title;
+        this.body = body;
     }
 
     // Getters and setters
@@ -26,11 +26,11 @@ public class User {
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
-    public String getName() { return title; }
-    public void setName(String name) { this.title = name; }
+    public String getTitle() { return title; }
+    public void setTitle(String title) { this.title = title; }
 
-    public String getEmail() { return body; }
-    public void setEmail(String email) { this.body = email; }
+    public String getBody() { return body; }
+    public void setBody(String body) { this.body = body; }
 
 
     @Override
