@@ -36,7 +36,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "userId=" + id +
+                "userId=" + id + '\n' +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", body='" + body + '\'' +
